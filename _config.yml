@@ -10,15 +10,16 @@ authors:
     url: 'https://elementsLMS.github.io/'
 created: 2016
 license:
-  name: MIT license
-  shortname: MIT license
-  url: /LICENSE
+  name: Creative Commons 4.0 Attribution-ShareAlike
+  shortname: CC-BY-SA 4.0
+  url: http://creativecommons.org/licenses/by-sa/4.0/
+  badge: http://i.creativecommons.org/l/by-sa/4.0/80x15.png
 
 # Display a log in the top bar
-#logo: assets/logo/eLeMentS.svg
+logo: assets/logo/eLeMentS.svg
 
 # Display a GitHub fork me logo in the lower right corner
-#forkme: yes
+forkme: yes
 
 # Default configuration for pages.
 # Can be used to activate addons on all pages.
@@ -27,20 +28,20 @@ defaults:
       path: ''
     values:
       layout: default
-#      addons:
-#        mathjax: yes
-#        highlightjs: yes
-#        print-link: yes
-#        about: yes
+      addons:
+        mathjax: yes
+        highlightjs: yes
+        print-link: yes
+        about: yes
 
 # New page / post / etc. menu
-#create:
-#  pages: yes
-#  collections:
-#    - key: posts
-#      template: Write something
-#    - key: tutorial
-#      template: Write a tutorial
+create:
+  pages: yes
+  collections:
+    - key: posts
+      template: Write something
+    - key: tutorial
+      template: Write a tutorial
 
 # Collections
 collections:
@@ -50,12 +51,12 @@ collections:
     output: true
     permalink: /:collection/:path:output_ext
   # Other collections. See Jekyll docs.
-#  tutorials:
-#    name:
-#      one: tutorial
-#      many: tutorials
-#    icon: text-o
-#    output: true
+  tutorials:
+    name:
+      one: tutorial
+      many: tutorials
+    icon: text-o
+    output: true
 
 
 # Kramdown configuration (markdown parser)
